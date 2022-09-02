@@ -1,11 +1,13 @@
 name: MSBuild
 
 on:
- #push:
-    #branches: [ "master" ]
-  pull_request:
+ push:
+   paths:
+     - '**.me'
     branches: [ "master" ]
-    types:
+  #pull_request:
+    #branches: [ "master" ]
+    #types:
           -closed
 
 env:
