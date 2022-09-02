@@ -3,7 +3,7 @@ name: MSBuild
 on:
  push:
    paths:
-     - '**.me'
+     - '**.md'
     branches: [ "master" ]
   #pull_request:
     #branches: [ "master" ]
