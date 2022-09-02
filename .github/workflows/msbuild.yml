@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - '**.md'
+  branches: [ "master" ]
   #pull_request:
     #branches: [ "master" ]
     #types:
