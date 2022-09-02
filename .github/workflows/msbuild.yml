@@ -1,7 +1,7 @@
 name: MSBuild
 
 on:
- push:
+  push:
    paths:
      - '**.md'
   #pull_request:
